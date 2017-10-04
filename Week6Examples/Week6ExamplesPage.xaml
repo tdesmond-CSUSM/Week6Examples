@@ -6,9 +6,10 @@
     x:Class="Week6Examples.Week6ExamplesPage">
     <StackLayout>
         <Label
-            Text="Did you add your API key? (Android Only)" />
+            Text="Did you add your API key? (Android Only)"
+            HorizontalOptions="Center" />
         <Button
             Text="Map Sample"
-        Clicked="Handle_NavigateToMapSample"/>
+            Clicked="Handle_NavigateToMapSample" />
     </StackLayout>
 </ContentPage>
