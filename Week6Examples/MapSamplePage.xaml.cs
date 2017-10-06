@@ -11,8 +11,11 @@ namespace Week6Examples
         public MapSamplePage()
         {
             InitializeComponent();
-            //MySampleMap.MoveToRegion(new MapSpan(new Position(33.1307785, -117.1601826), 33.1307785, -117.1601826 ));
-            var initialMapLocation = MapSpan.FromCenterAndRadius(new Position(33.1307785, -117.1601826), Distance.FromMiles(1));
+
+            var initialMapLocation = MapSpan.FromCenterAndRadius
+                                            (new Position(33.1307785, -117.1601826)
+                                             , Distance.FromMiles(1));
+            
             MySampleMap.MoveToRegion(initialMapLocation);
 
 
@@ -29,7 +32,9 @@ namespace Week6Examples
 				Label = "custom pin",
 				Address = "custom detail info"
 			};
+
+
             MySampleMap.Pins.Add(pin);
-        }
+		}
     }
 }

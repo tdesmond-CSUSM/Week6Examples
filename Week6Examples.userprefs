@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{EBEB1B9A-7FD7-483E-9766-2106D882CDF2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Week6Examples/MapSamplePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
       <File FileName="Week6Examples/Week6ExamplesPage.xaml" Line="15" Column="15" />
       <File FileName="Week6Examples/Week6ExamplesPage.xaml.cs" Line="14" Column="53" />
-      <File FileName="Week6Examples/MapSamplePage.xaml" Line="17" Column="28" />
+      <File FileName="Week6Examples/MapSamplePage.xaml" Line="17" Column="31" />
       <File FileName="Week6Examples/App.xaml" Line="10" Column="1" />
       <File FileName="Week6Examples/App.xaml.cs" Line="11" Column="67" />
-      <File FileName="iOS/AppDelegate.cs" Line="17" Column="29" />
+      <File FileName="iOS/AppDelegate.cs" Line="25" Column="1" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Week6Examples/MapSamplePage.xaml.cs" Line="14" Column="23" />
+      <File FileName="Week6Examples/MapSamplePage.xaml.cs" Line="15" Column="126" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

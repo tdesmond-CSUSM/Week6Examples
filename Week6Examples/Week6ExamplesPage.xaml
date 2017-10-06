@@ -11,5 +11,10 @@
         <Button
             Text="Map Sample"
             Clicked="Handle_NavigateToMapSample" />
+        <Picker
+            x:Name="SamplePicker"
+            SelectedIndexChanged="Handle_SelectedIndexChanged"
+            Title="Sample Picker"
+            Margin="10" />
     </StackLayout>
 </ContentPage>
